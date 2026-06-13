@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 106, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/evert/Desktop/GreenChain/lib/auth.ts"],"sourcesContent":["import { NextAuthOptions } from \"next-auth\"\r\n\r\nexport const authOptions: NextAuthOptions = {\r\n  providers: [\r\n    // Providers placeholder (e.g. credentials or web3 session authentication)\r\n  ],\r\n  session: {\r\n    strategy: \"jwt\",\r\n  },\r\n  secret: process.env.NEXTAUTH_SECRET || \"default-secret-change-me-in-production\",\r\n}\r\n"],"names":["authOptions","providers","session","strategy","secret","process","env","NEXTAUTH_SECRET"],"mappings":";;;;AAEO,MAAMA,cAA+B;IAC1CC,WAAW,EAEV;IACDC,SAAS;QACPC,UAAU;IACZ;IACAC,QAAQC,QAAQC,GAAG,CAACC,eAAe,IAAI;AACzC"}},
+    {"offset": {"line": 121, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/evert/Desktop/GreenChain/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["// app/api/auth/[...nextauth]/route.ts\r\n// Handler padrão NextAuth — gerencia sessões JWT\r\n\r\nimport NextAuth from \"next-auth\"\r\nimport { authOptions } from \"@/lib/auth\"\r\n\r\nconst handler = NextAuth(authOptions)\r\n\r\nexport { handler as GET, handler as POST }\r\n"],"names":["handler"],"mappings":";;;;;;AAAA,sCAAsC;AACtC,iDAAiD;AAEjD;AACA;;;AAEA,MAAMA,UAAU,IAAA,kJAAQ,EAAC,4HAAW"}}]
+}

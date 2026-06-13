@@ -1,0 +1,174 @@
+module.exports = [
+"[project]/messages/en.json.[json].cjs [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+module.exports = {
+    "meta": {
+        "title": "GreenChain — Recycle & Earn",
+        "description": "Recycle-to-Earn platform: connecting citizens to smart bins and rewarding them with $GREEN tokens.",
+        "ogDescription": "Recycle materials, earn $GREEN tokens. Powered by Celo."
+    },
+    "header": {
+        "live": "Live",
+        "tagline": "Recycle to Earn"
+    },
+    "footer": {
+        "copyright": "GreenChain © 2025 — Recycle-to-Earn Protocol",
+        "network": "Celo (PoS)",
+        "token": "$GREEN (ERC-20)",
+        "version": "v1.0",
+        "networkNote": "Proof of Ship (PoS) is a Celo program"
+    },
+    "nav": {
+        "user": "User Dashboard",
+        "userShort": "User",
+        "company": "Company Dashboard",
+        "companyShort": "Company",
+        "simulator": "IoT Simulator",
+        "simulatorShort": "Simulator"
+    },
+    "wallet": {
+        "connect": "Connect Wallet",
+        "connectShort": "Connect",
+        "wrongNetwork": "Wrong network"
+    },
+    "userDashboard": {
+        "ranking": "Ranking",
+        "walletBalance": "Wallet balance",
+        "networkMain": "Network: Celo",
+        "networkLabel": "Mainnet / Alfajores",
+        "tokenRate": "1 $GREEN = BRL {rate}",
+        "recycled": "{kg} kg recycled",
+        "dailyGoals": {
+            "title": "Daily Goals",
+            "description": "Today's progress by material",
+            "complete": "Done",
+            "plastico": "Plastic today",
+            "vidro": "Glass today",
+            "metal": "Metal today",
+            "papel": "Paper today"
+        },
+        "impact": {
+            "co2Label": "CO₂ Avoided",
+            "co2Sub": "emission saved",
+            "treesLabel": "Trees Saved",
+            "treesSub": "yearly equivalent",
+            "recycledLabel": "Total Recycled",
+            "recycledSub": "total weight disposed"
+        },
+        "history": {
+            "title": "Discard History",
+            "description": "Latest recorded transactions",
+            "empty": "No discards recorded yet.",
+            "colDate": "Date",
+            "colMaterial": "Material",
+            "colWeight": "Weight",
+            "colTokens": "Tokens"
+        }
+    },
+    "companyDashboard": {
+        "title": "Company Dashboard",
+        "subtitle": "B2B View — GreenChain HQ",
+        "live": "Live",
+        "metrics": {
+            "revenue": "Estimated Total Revenue",
+            "revenueSub": "accumulated gross revenue",
+            "bins": "Active Bins",
+            "binsSub": "of {total} installed",
+            "volume": "Volume Collected",
+            "volumeSub": "{tons} tonnes",
+            "tokens": "Tokens Issued",
+            "tokensSub": "$GREEN distributed"
+        },
+        "chart": {
+            "title": "Revenue vs. Cost (BRL)",
+            "description": "Last 6 months — material sale revenue vs. token cost",
+            "revenue": "Revenue",
+            "cost": "Token Cost",
+            "ariaLabel": "Revenue vs cost chart"
+        },
+        "breakdown": {
+            "title": "Breakdown by Material",
+            "description": "Share of total collected volume",
+            "empty": "No data available."
+        },
+        "bins": {
+            "title": "Bin Monitoring",
+            "description": "Real-time status of smart bins",
+            "available": "Available",
+            "full": "Full",
+            "maintenance": "Maintenance"
+        }
+    },
+    "simulator": {
+        "title": "IoT Simulator",
+        "subtitle": "Smart Bin — Development Mode",
+        "online": "Online",
+        "stepOf": "STEP {step} OF 4",
+        "stepDescriptions": {
+            "1": "Identify the user to unlock the bin",
+            "2": "Enter the material and scale reading",
+            "3": "Review calculations before confirming",
+            "4": "Transaction complete and data synced"
+        },
+        "steps": {
+            "recognize": "Recognize",
+            "materials": "Materials",
+            "process": "Process",
+            "confirm": "Confirm"
+        },
+        "footer": "Actions in this simulator immediately update the User Dashboard and Company Dashboard via shared global state.",
+        "step1": {
+            "title": "User Recognition",
+            "description": "Simulates QR Code / biometric scan",
+            "authenticate": "Authenticate & Unlock Bin"
+        },
+        "step2": {
+            "title": "Data Entry",
+            "description": "Material detected by the smart bin",
+            "materialType": "Material Type",
+            "weight": "Weight — Scale Reading",
+            "bin": "Bin",
+            "next": "Proceed to Processing"
+        },
+        "step3": {
+            "title": "Processing",
+            "description": "Real-time calculation — awaiting confirmation",
+            "material": "Material",
+            "weight": "Weight",
+            "bin": "Bin",
+            "tokensLabel": "Tokens to user",
+            "revenueLabel": "Company revenue",
+            "costLabel": "Token cost",
+            "profitLabel": "Net profit",
+            "confirm": "Confirm Discard"
+        },
+        "step4": {
+            "title": "Discard Confirmed!",
+            "description": "Transaction recorded on the blockchain",
+            "user": "User",
+            "material": "Material",
+            "weight": "Weight",
+            "tokens": "Tokens Earned",
+            "revenue": "Company Revenue",
+            "reset": "New Simulation",
+            "syncNote": "User Dashboard and Company Dashboard data have been updated in real time."
+        },
+        "materials": {
+            "plastico": "Plastic",
+            "vidro": "Glass",
+            "metal": "Metal / Aluminum",
+            "papel": "Paper"
+        }
+    },
+    "langSwitcher": {
+        "label": "Language",
+        "pt": "PT",
+        "en": "EN",
+        "ptFull": "Português",
+        "enFull": "English"
+    }
+};
+}),
+];
+
+//# sourceMappingURL=messages_en_json_%5Bjson%5D_cjs_13rph_m._.js.map

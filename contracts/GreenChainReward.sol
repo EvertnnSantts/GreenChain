@@ -96,7 +96,8 @@ contract GreenChainReward {
      */
     function withdraw(uint256 _amount) external onlyOwner {
         require(address(this).balance >= _amount, "Saldo insuficiente para saque");
-        payable(owner).transfer(_amount);
+        (bool success, ) = payable(owner).call{value: _amount}("");
+        require(success, "Falha ao enviar CELO para o owner");
     }
     
     /**
